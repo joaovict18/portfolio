@@ -10,7 +10,10 @@ body {
 .navegacao {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin: 32px;
+    margin-bottom: 0px;
 }
 
 .logo-nome {
@@ -74,6 +77,10 @@ li a:hover {
     gap: 15px;
 }
 
+.texto {
+    text-align: center;
+}
+
 .imagem img{
     height: 300px;
     border: 10px solid #b9b9b9;
@@ -102,6 +109,7 @@ p span {
 
 .botoes {
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -110,7 +118,6 @@ button {
     background-color: #555;
     padding: 25px;
     margin-top: 20px;
-    border: 0px solid #fff;
     border-radius: 50px;
     height: 5px;
     font-family: "Poppins", sans-serif;
@@ -122,8 +129,9 @@ button {
 }
 
 .icones {
-    margin-right: 10px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 i {
