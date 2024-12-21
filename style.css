@@ -97,15 +97,12 @@ p {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     color: #b9b9b9;
-    width: 700px;
     word-wrap: break-word;
 }
 
-/*
 p span {
     text-decoration: line-through;
 }
-*/
 
 .botoes {
     display: flex;
@@ -163,12 +160,15 @@ h3 {
 }
 
 .card {
-    width: 400px;
     height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
+}
+
+.card img {
+    height: 90vw;
 }
 
 .card h4 {
