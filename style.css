@@ -28,6 +28,21 @@ h1 {
     font-family: "Montserrat", sans-serif;
 }
 
+#hamburguer {
+    color: #fff;
+    text-align: right;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#hamburguer:hover {
+    color: #292929;
+}
+
+nav {
+    display: none;
+}
+
 ul {
     display: flex;
     gap: 32px;
@@ -50,11 +65,13 @@ li a:hover {
     color: #fff;
 }
 
-.primeira-secao {
-    margin-top: 200px;
-    margin-bottom: 360px;
+#primeira-secao {
+    margin-top: 150px;
+    margin-bottom: 200px;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .imagem img{
@@ -132,12 +149,18 @@ h3 {
 
 .cards {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 .card {
     width: 400px;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .card h4 {
@@ -148,10 +171,75 @@ h3 {
 }
 
 .card p {
-    width: 400px;
+    width: 200px;
     word-wrap: break-word;
     color: #b9b9b9; 
     font-size: 16px;
-    text-align: center
+    text-align: center;
+}
 
+#terceira-secao {
+    background-color: #05A;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.formulario {
+    width: 700px;
+    background-color: #424242;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-left: 28px;
+}
+
+label .red {
+    color: darkred;
+}
+
+input, textarea {
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 25px;
+}
+
+textarea {
+    height: 90px;
+}
+
+.campo-botao {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 12px;
+}
+
+.botao-enviar {
+    width: 100px;
+    text-align: center;
+    background-color: #292929;
+}
+
+footer {
+    background-color: #292929;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
 }
